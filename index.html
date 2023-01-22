@@ -1,192 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dmitry Konovalchuk</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="slider.css" />
-  <link rel="shortcut icon" href=".//images/logo.png" type="image/x-icon" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-   href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap"
-   rel="stylesheet"
-  />
-  <link
-   href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap"
-   rel="stylesheet"
-  />
- </head>
- <body>
-  <header class="header">
-   <div class="logo">
-    <img src=".//images/logo.png" width="60px" color="black" alt="" />
-   </div>
-   <nav class="points">
-    <a href="#about-me"
-     ><h4><span>01.</span> Обо мне</h4></a
-    >
-    <a href="#work-experience">
-     <h4><span>02.</span> Опыт работы</h4></a
-    >
-    <a href="#hard-skills"
-     ><h4><span>03.</span> Hard skills</h4></a
-    >
-    <a href="#pet-projects"
-     ><h4><span>04.</span> Pet-projects</h4></a
-    >
-    <a href=".//cv/Dmitry Konovalchuk frontend developer CV.pdf" target="_blank"
-     ><button class="resume">Резюме</button></a
-    >
-   </nav>
-  </header>
-  <main>
-   <section class="greeting">
-    <div>
-     <p class="typing">Привет, меня зовут</p>
-     <br />
-     <h1>Дмитрий Коновальчук.</h1>
-     <br />
-     <h2>Я junior frontend-разработчик.</h2>
-     <br />
-     <h3>Закончил курс Frontend разработки от TeachMeSkills.</h3>
-    </div>
-   </section>
-   <section id="about-me" class="about-me-section">
-    <h4><span>01.</span> Обо мне</h4>
-    <div class="about-me">
-     <div>
-      <h3>
-       Мне 25 лет. <br />
-       Уже прошло больше года, как я решил сменить сферу деятельности и начал
-       осваивать программирование. IT-сфера для меня - это возможность
-       постоянного развития и перспективы карьерного роста. Сейчас
-       самостоятельно изучаю React, JavaScript и TypeScript на практике (делаю
-       пет-проекты) и с помощью книг.
-      </h3>
-     </div>
-     <div>
-      <img src=".//images/photo.png" width="280px" alt="" />
-     </div>
-    </div>
-   </section>
 
-   <section id="work-experience" class="experience">
-    <h4><span>02.</span> Опыт работы</h4>
-    <div class="work">
-     <p>Frontend-разработчик (выпускник)</p>
-     <h4>TeachMeSkills | декабрь 2021 г. - август 2022 г.</h4>
-     <h3>
-      Закончил курс Frontend разработки от
-      <a href="https://teachmeskills.by/">TeachMeSkills</a> . На курсе освоил
-      <span>HTML, CSS, SCSS, JS, TS, React</span> и <span>Redux</span> .
-      Сверстал 5 макетов с Figma и разработал 2 приложения.
-      <br />
-      Мой пет-проект Pixema | SPA приложение на React для поиска и просмотра
-      фильмов, сериалов и мультфильмов. На сайте проекта
-      <a href="https://pixema.vercel.app/">pixema.vercel.app</a> есть
-      возможность просмотра трейлеров (с youtube), фильмов, мультфильмов и
-      сериалов в хорошем качестве и с выбором озвучки, добавление в Избранное,
-      поиск и фильтр результатов по дате, рейтингу, жанров и др., регистрация и
-      вход по почте (реализовано с помощью swagger).
-      <br />
-      Разработано приложение с использованием:
-      <span>
-       React, JavaScript, TypeScript, Redux Toolkit, RTK Query, Sass, React hook
-       form, react router dom, rooks, usehooks, lodash, classnames, dayjs.</span
-      >
-      <br />
-      <a href="https://github.com/raz1boo/pixema">github.com/pixema</a>
-      (репозиторий проекта)
-     </h3>
-    </div>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dmitry Konovalchuk</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="shortcut icon" href=".//images/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet" />
+</head>
 
-    <div class="work">
-     <p>Работник интернет-магазина <a href="https://7745.by/">7745.by</a></p>
-     <h4>Интернет-магазин 7745 | июль 2018 г. - по н. в.</h4>
-     <h3>
-      В мои обязанности входит работа с документами, 1c и wms. Подготовка к
-      приемке и приемка товаров, размещение их на хранение, подготовка к
-      отгрузке и отгрузка и др. За короткое время я освоил свои основные
-      обязанности. За время работы здесь был ответственным, быстрым и точным в
-      расчетах и стал хорошим и универсальным специалистом в складской сфере.
-     </h3>
-    </div>
-   </section>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src=".//images/logo.png" width="60px" color="black" alt="" />
+        </div>
+        <nav class="points">
+            <a href="#about-me">
+                <h4><span>01.</span> Обо мне</h4>
+            </a>
+            <a href="#work-experience">
+                <h4><span>02.</span> Опыт работы</h4>
+            </a>
+            <a href="#hard-skills">
+                <h4><span>03.</span> Hard skills</h4>
+            </a>
+            <a href="#pet-projects">
+                <h4><span>04.</span> Pet-projects</h4>
+            </a>
+            <a href=".//cv/Dmitry Konovalchuk frontend developer CV.pdf" target="_blank"><button
+                    class="resume">Резюме</button></a>
+        </nav>
+    </header>
+    <main>
+        <section class="greeting">
+            <div>
+                <p class="typing">Привет, меня зовут</p>
+                <br />
+                <h1>Дмитрий Коновальчук.</h1>
+                <br />
+                <h2>Я junior frontend-разработчик.</h2>
+                <br />
+                <h3>Закончил курс Frontend разработки от TeachMeSkills.</h3>
+            </div>
+        </section>
+        <section id="about-me" class="about-me-section">
+            <h4><span>01.</span> Обо мне</h4>
+            <div class="about-me">
+                <div>
+                    <h3>
+                        Мне 25 лет. <br />
+                        Уже прошло больше года, как я решил сменить сферу деятельности и начал
+                        осваивать программирование. IT-сфера для меня - это возможность
+                        постоянного развития и перспективы карьерного роста. Сейчас
+                        самостоятельно изучаю React, JavaScript и TypeScript на практике (делаю
+                        пет-проекты) и с помощью книг.
+                    </h3>
+                </div>
+                <div>
+                    <img src=".//images/photo.png" width="280px" alt="" />
+                </div>
+            </div>
+        </section>
 
-   <section id="hard-skills" class="hard-skills">
-    <h4><span>03.</span> Hard skills</h4>
-    <div class="list">
-     <ul class="list-items">
-      <li>JavaScript</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>SASS (SCSS)</li>
-      <li>Git, GitHub</li>
-     </ul>
-     <ul class="list-items">
-      <li>TypeScript</li>
-      <li>React</li>
-      <li>Redux</li>
-      <li>API, Jest</li>
-      <li>Gulp, Bootstrap</li>
-     </ul>
-    </div>
-   </section>
+        <section id="work-experience" class="experience">
+            <h4><span>02.</span> Опыт работы</h4>
+            <div class="work">
+                <p>Frontend-разработчик (выпускник)</p>
+                <h4>TeachMeSkills | декабрь 2021 г. - август 2022 г.</h4>
+                <h3>
+                    Закончил курс Frontend разработки от
+                    <a href="https://teachmeskills.by/">TeachMeSkills</a> . На курсе освоил
+                    <span>HTML, CSS, SCSS, JS, TS, React</span> и <span>Redux</span> .
+                    Сверстал 5 макетов с Figma и разработал 2 приложения.
+                    <br />
+                    Мой пет-проект Pixema | SPA приложение на React для поиска и просмотра
+                    фильмов, сериалов и мультфильмов. На сайте проекта
+                    <a href="https://pixema.vercel.app/">pixema.vercel.app</a> есть
+                    возможность просмотра трейлеров (с youtube), фильмов, мультфильмов и
+                    сериалов в хорошем качестве и с выбором озвучки, добавление в Избранное,
+                    поиск и фильтр результатов по дате, рейтингу, жанров и др., регистрация и
+                    вход по почте (реализовано с помощью swagger).
+                    <br />
+                    Разработано приложение с использованием:
+                    <span>
+                        React, JavaScript, TypeScript, Redux Toolkit, RTK Query, Sass, React hook
+                        form, react router dom, rooks, usehooks, lodash, classnames, dayjs.</span>
+                    <br />
+                    <a href="https://github.com/raz1boo/pixema">github.com/pixema</a>
+                    (репозиторий проекта)
+                </h3>
+            </div>
 
-   <section class="contacts">
-    <a href="https://www.instagram.com/_konovalchuk/" target="_blank"
-     ><img src=".//images/instagram.png" alt=""
-    /></a>
-    <a href="mailto:97konovalchuk@gmail.com" target="_blank"
-     ><img src="./images/mail.png" alt=""
-    /></a>
-    <a href="https://www.linkedin.com/in/konovalchuk/" target="_blank"
-     ><img src="./images/linkedin.png" alt=""
-    /></a>
-    <a href="https://t.me/konovalchuk97" target="_blank"
-     ><img src="./images/telegram.png" alt=""
-    /></a>
-    <a href="https://twitter.com/d_konovalchuk" target="_blank"
-     ><img src="./images/twitter.png" alt=""
-    /></a>
-    <a href="https://github.com/konovalchuk" target="_blank"
-     ><img src="./images/github.png" alt=""
-    /></a>
-    <div class="vl"></div>
-   </section>
-   <section id="pet-projects" class="pet-projects">
-    <h4><span>04.</span> Pet-projects</h4>
-    <div class="carousel-wrapper">
-     <span id="item-1"></span>
-     <span id="item-2"></span>
-     <span id="item-3"></span>
-     <div class="carousel-item item-1">
-      <p>
-       Pixema | SPA приложение на React для поиска и просмотра фильмов, сериалов
-       и мультфильмов
-      </p>
-      <a class="arrow arrow-prev" href="#item-3"></a>
-      <a class="arrow arrow-next" href="#item-2"></a>
-     </div>
+            <div class="work">
+                <p>Работник интернет-магазина <a href="https://7745.by/">7745.by</a></p>
+                <h4>Интернет-магазин 7745 | июль 2018 г. - по н. в.</h4>
+                <h3>
+                    В мои обязанности входит работа с документами, 1c и wms. Подготовка к
+                    приемке и приемка товаров, размещение их на хранение, подготовка к
+                    отгрузке и отгрузка и др. За короткое время я освоил свои основные
+                    обязанности. За время работы здесь был ответственным, быстрым и точным в
+                    расчетах и стал хорошим и универсальным специалистом в складской сфере.
+                </h3>
+            </div>
+        </section>
 
-     <div class="carousel-item item-2">
-      <p>Клон Pinterest. Написан на JS, HTML, CSS. С использованием mockAPI</p>
-      <a class="arrow arrow-prev" href="#item-1"></a>
-      <a class="arrow arrow-next" href="#item-3"></a>
-     </div>
+        <section id="hard-skills" class="hard-skills">
+            <h4><span>03.</span> Hard skills</h4>
+            <div class="list">
+                <ul class="list-items">
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SASS (SCSS)</li>
+                    <li>Git, GitHub</li>
+                </ul>
+                <ul class="list-items">
+                    <li>TypeScript</li>
+                    <li>React</li>
+                    <li>Redux</li>
+                    <li>API, Jest</li>
+                    <li>Gulp, Bootstrap</li>
+                </ul>
+            </div>
+        </section>
 
-     <div class="carousel-item item-3">
-      <p>
-       Вёрстка страницы статистики, с использованием display: grid.
-      </p>
-      <a class="arrow arrow-prev" href="#item-2"></a>
-      <a class="arrow arrow-next" href="#item-1"></a>
-     </div>
-    </div>
-   </section>
-  </main>
- </body>
+        <section class="contacts">
+            <a href="https://www.instagram.com/_konovalchuk/" target="_blank"><img src=".//images/instagram.png"
+                    alt="" /></a>
+            <a href="mailto:97konovalchuk@gmail.com" target="_blank"><img src="./images/mail.png" alt="" /></a>
+            <a href="https://www.linkedin.com/in/konovalchuk/" target="_blank"><img src="./images/linkedin.png"
+                    alt="" /></a>
+            <a href="https://t.me/konovalchuk97" target="_blank"><img src="./images/telegram.png" alt="" /></a>
+            <a href="https://twitter.com/d_konovalchuk" target="_blank"><img src="./images/twitter.png" alt="" /></a>
+            <a href="https://github.com/konovalchuk" target="_blank"><img src="./images/github.png" alt="" /></a>
+            <div class="vl"></div>
+        </section>
+        <section id="pet-projects" class="pet-projects">
+            <h4><span>04.</span> Pet-projects</h4>
+            <div class="carousel-wrapper">
+                <span id="item-1"></span>
+                <span id="item-2"></span>
+                <span id="item-3"></span>
+                <div class="carousel-item item-1">
+                    <p>
+                        Pixema | SPA приложение на React для поиска и просмотра фильмов, сериалов
+                        и мультфильмов
+                    </p>
+                    <a class="arrow arrow-prev" href="#item-3"></a>
+                    <a class="arrow arrow-next" href="#item-2"></a>
+                </div>
+
+                <div class="carousel-item item-2">
+                    <p>Клон Pinterest. Написан на JS, HTML, CSS. С использованием mockAPI</p>
+                    <a class="arrow arrow-prev" href="#item-1"></a>
+                    <a class="arrow arrow-next" href="#item-3"></a>
+                </div>
+
+                <div class="carousel-item item-3">
+                    <p>Вёрстка страницы статистики, с использованием display: grid.</p>
+                    <a class="arrow arrow-prev" href="#item-2"></a>
+                    <a class="arrow arrow-next" href="#item-1"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
 </html>
