@@ -10,6 +10,7 @@
 :root {
   --color-orange: #bc8420;
   --color-black: #2d2d2d;
+  --color-light-gray: #e3e3e3;
 }
 
 body {
@@ -35,7 +36,7 @@ p {
 h1 {
   font-weight: 700;
   font-size: 73px;
-  color: #e3e3e3;
+  color: var(--color-light-gray);
 }
 
 h2 {
@@ -116,12 +117,12 @@ a {
 .about-me-section h4,
 .experience h4:first-child,
 .hard-skills h4, .pet-projects h4 {
-  color: #e3e3e3;
+  color: var(--color-light-gray);
   font-size: 40px;
 }
 
 .experience h4 {
-  color: #e3e3e3;
+  color: var(--color-light-gray);
 }
 
 .about-me {
@@ -158,7 +159,7 @@ a {
 }
 
 .experience {
-  padding: 10% 30% 0 10%;
+  padding: 10% 10% 0 10%;
 }
 
 .work {
