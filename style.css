@@ -109,15 +109,25 @@ a {
  padding: 150px 20% 0 15%;
 }
 
-.about-me-section,
-.hard-skills {
- padding: 15% 20% 0;
+.about-me, .hard-skills {
+ padding: 100px 15% 0;
 }
 
-.about-me-section h4,
+.experience {
+ padding: 100px 10% 0;
+}
+
+.work,
+.about-me-text,
+.list,
+.carousel-wrapper {
+ padding: 50px 0 0;
+}
+
+.about-me h4:first-child,
 .experience h4:first-child,
-.hard-skills h4,
-.pet-projects h4 {
+.hard-skills h4:first-child,
+.pet-projects h4:first-child {
  color: var(--color-light-gray);
  font-size: 40px;
 }
@@ -126,13 +136,13 @@ a {
  color: var(--color-light-gray);
 }
 
-.about-me {
+.about-me-text {
  display: flex;
  flex-direction: row;
  align-items: center;
 }
 
-.about-me-section img {
+.about-me img {
  padding: 0;
  border-radius: 50%;
 }
@@ -157,14 +167,6 @@ a {
  50% {
   border-color: transparent;
  }
-}
-
-.experience {
- padding: 100px 10% 0 10%;
-}
-
-.work {
- padding: 3% 0;
 }
 
 .header a {
@@ -218,7 +220,7 @@ body::-webkit-scrollbar-thumb {
  font-family: "Unbounded";
  font-size: 20px;
  font-weight: 300;
- padding: 10% 20% 10% 0;
+ padding: 0 20% 10% 0;
 }
 
 .list-items li {
