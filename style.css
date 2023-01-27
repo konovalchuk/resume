@@ -20,7 +20,7 @@ body {
 html {
  scroll-behavior: smooth;
  /* font-family: "Roboto Mono", monospace; */
- font-family: 'Work Sans', sans-serif;
+ font-family: "Work Sans", sans-serif;
 }
 
 h2,
@@ -111,7 +111,8 @@ a {
  padding: 150px 20% 0 15%;
 }
 
-.about-me, .hard-skills {
+.about-me,
+.hard-skills {
  padding: 100px 15% 0;
 }
 
@@ -183,14 +184,15 @@ a {
  bottom: 1px;
 }
 
-.contacts img, .carousel-item img {
+.contacts img,
+.carousel-item img {
  width: 30px;
  padding: 7px 0;
  filter: opacity(0.7);
 }
 
-.carousel-item img:hover{
-    filter: drop-shadow(0 0 3px rgba(214, 146, 20, 0.8)); 
+.carousel-item img:hover {
+ filter: drop-shadow(0 0 3px rgba(214, 146, 20, 0.8));
 }
 
 .contacts img:hover {
@@ -209,8 +211,6 @@ a {
 body::-webkit-scrollbar {
  width: 20px;
 }
-
-
 
 body::-webkit-scrollbar-thumb {
  border-radius: 100px;
